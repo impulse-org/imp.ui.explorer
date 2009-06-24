@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="org.eclipse.imp.ui.explorer.ProjectExplorerPart"
+            id="org.eclipse.imp.runtime.projectExplorerView"
+            name="IMP Project Explorer"/>
+   </extension>
+</plugin>
